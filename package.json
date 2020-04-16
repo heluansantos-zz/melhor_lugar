@@ -1,0 +1,33 @@
+{
+  "name": "Melhor_Lugar",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/geolocation": "^2.0.2",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-geolocation-service": "^3.0.0",
+    "react-native-maps": "^0.25.0",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-super-grid": "^3.0.9",
+    "react-native-vector-icons": "^6.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/runtime": "7.5.5",
+    "@react-native-community/eslint-config": "0.0.3",
+    "babel-jest": "24.9.0",
+    "eslint": "6.2.1",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
